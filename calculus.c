@@ -6,13 +6,7 @@
 float myfunction(float x);
 double derivative(float (*function)(float), float x, double h);
 
-int main(int argc, char **argv) {
-
-  printf("%d\n", argc);
-  for (int i = 0; i < argc; i++) {
-    printf("%s\n", argv[1]);
-  }
-
+int main() {
   float x = 4;
   double h = 0.0001;
 

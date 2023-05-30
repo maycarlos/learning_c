@@ -43,7 +43,7 @@ int main() {
 
     float res = euclidean_distance(points);
 
-    printf("%.03f", res);
+    printf("%.03f\n", res);
 
     free(alog);
 
